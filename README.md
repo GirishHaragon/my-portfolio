@@ -1,9 +1,9 @@
 # my-portfolio
 Welcome to my portfolio! This repository serves as a showcase of my various projects and contributions. Here, you'll find a diverse range of work that demonstrates my skills and passion for programming and problem-solving. Below, I've provided a brief overview of each project:
 
-Project Name: Blog_Application
+Project Name: Blogging_App_APIs
 Description: I've used tools like: IntelliJ Idea, MySql Workbench, PostMan API, STS. Creating Blog Posts, commentings, RESTful APIs for all the operations, uploading Photo, maintaining DB. Generating .xls file for user data, Applied Spring security for signin/signup, JWT token for Authentication and Authorization of user/admin roles, various exceptions handled, HttpStatus codes in response section of PostMan.
-Repository: [Link to the project repository or relevant code files.]
+Repository: GirishHaragon/my-portfolio/Blogging_App_APIs
 
 Project Name: Flight_Reservation_Web_App
 Description: I've performed all sort of things required basically for a flight booking system, like Flights searching, booking a flight, integrating sample payment gateway, generating pdf tickets, SMS third party API integration from Twilio etc.. #Tools used: SpringToolSuite, JSP, SpringMVC, MySQL workbench 8.0CE..
