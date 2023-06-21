@@ -14,7 +14,6 @@ import com.marketing_app_1.dto.LeadDto;
 import com.marketing_app_1.entities.Lead;
 import com.marketing_app_1.service.LeadService;
 import com.marketing_app_1.utility.EmailService;
-import com.sun.xml.bind.annotation.OverrideAnnotationOf;
 
 @Controller//Just by applying this annotation will make this class a controller layer. And what a controller layer does, it interacts with the view & with backend business logic. So we don't have servlets in springboot, Servlets gone & controller classes took forward.
 public class LeadController {
@@ -35,7 +34,7 @@ public class LeadController {
 	@RequestMapping("/saveLead")//This should match with the form action attribute.//There are totally 3 ways we can read the form Data. One of the way we have seen with this method.  
 	public String saveLead(@ModelAttribute Lead lead, ModelMap model) {//To take the form data just type the Lead lead (Entity Class). Lead should be imported (Ctrl+1). All our form data will go to this object automatically. We usually use annotation @ModelAttribute which is not mandatory, without using this also, the data from the form will go to this object. But bcs they'll ask this in interviews, What is @ModelAttribute Annotation? => @ModelAttribute will copy the data from the form to the object. In the argument we create a model variable, then we give addAttriute to insert the required message into it. There two ways to share the data from controller to view- 1.Use Model 2.Use ModelMap.     
 		LeadService.saveLead(lead);//This helps us to save the data from object lead. By this line we are calling the object LeadService and saving it to DB using lead entity...
-		emailService.sendEmail(lead.getEmail(), "Test", "Welcome");//We will now send the email when we save the Lead.
+		emailService.sendEmail(lead.getEmail(), "Registered Successfully in our Marketing Community", "Welcome, this is a computer generated email for successfully registering to become a part of our community. Name :"+lead.getFirstName()+" "+lead.getLastName()+" -> "+lead.getMobile());//We will now send the email when we save the Lead.
 		model.addAttribute("msg", "Record is Saved!!");//Now this will act as set attribute equivalent to it as addAttribute. 
 		return "create_lead";//This acts like Request Dispatcher.
 	}
