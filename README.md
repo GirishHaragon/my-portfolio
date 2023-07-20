@@ -5,7 +5,7 @@ Welcome to my portfolio! This repository serves as a showcase of my various proj
 **Description:** I've used tools like: IntelliJ Idea, MySql Workbench, PostMan API, STS. Creating Blog Posts, commentings, RESTful APIs for all the operations, uploading Photo, maintaining DB. Generating .xls file for user data, Applied Spring security for signin/signup, JWT token for Authentication and Authorization of user/admin roles, various exceptions handled, HttpStatus codes in response section of PostMan.
 **Repository:** **GirishHaragon/my-portfolio/Blogging_App_APIs**
 
-**Project Name:** **Flight_Reservation_Web_App** & **CheckIn**
+**Project Name:** **Flight_Reservation_Web_App** & **CheckIn**   
 **Description:** I've performed all sort of things required basically for a flight booking system, like Flights searching, booking a flight, integrating sample payment gateway, generating pdf tickets, generating mail and sending to the respective user, SMS third party API integration from Twilio etc.. #Tools used: SpringToolSuite, JSP, SpringMVC, MySQL workbench 8.0CE..
 **Repository:**  **GirishHaragon/my-portfolio/Flight_Reservation_app** & **GirishHaragon/my-portfolio/CheckIn**
 
