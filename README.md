@@ -13,7 +13,7 @@ Welcome to my portfolio! This repository serves as a showcase of my various proj
 **Description:** Performed a perfect CRUD operation on MySql DB for maintaining Lead details for a marketing company/venture. Performed MVC architecture with JSP+HTML Frontend pages for recording Lead Details, sending greeting email after successful registering, 
 **Repository:** [Project under updations & not pushed into this repository yet]
 
-**Project Name:** **Cafe Management Systen**
+**Project Name:** **Cafe Management Systen**          
 **Description:** Performed a perfect CRUD operation on MySql DB for maintaining Food and Beverages ordering and maitaining their availability for the cafe admin/staffs, different roles based usage, Spring security, JWT, Exceptions, RESTful APIs developer using Spring boot application Hibernate framework, Angular is used for frontend to build single page based web application...
 **Repository:** [Project under updations & not pushed into this repository yet]
 
