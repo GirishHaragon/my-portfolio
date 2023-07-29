@@ -4,7 +4,7 @@ package com.CheckIn.integration.dto;
 public class Reservation {//They will give us URL and we have to build the structure of the class seeing the url details or analyze the JSON object. With the help of these URL/JSON we need to convert them to JAVA object, then only we can perform any operation.
 	private long id;
 	private boolean checkedIn;
-	private int NumberOfBags;
+	private int numberOfBags;
 	private Passenger passenger;//Object within Object.
 	private Flight flight;
 	
@@ -22,10 +22,10 @@ public class Reservation {//They will give us URL and we have to build the struc
 		this.checkedIn = checkedIn;
 	}
 	public int getNumberOfBags() {
-		return NumberOfBags;
+		return numberOfBags;
 	}
 	public void setNumberOfBags(int numberOfBags) {
-		NumberOfBags = numberOfBags;
+		this.numberOfBags = numberOfBags;
 	}
 	public Passenger getPassenger() {
 		return passenger;
