@@ -3,15 +3,15 @@ Welcome to my portfolio! This repository serves as a showcase of my various proj
 
 **Project Name:** **Blogging_App_APIs**      
 **Description:** I've used tools like: IntelliJ Idea, MySql Workbench, PostMan API, STS. Creating Blog Posts, commentings, RESTful APIs for all the operations, uploading Photo, maintaining DB. Generating .xls file for user data, Applied Spring security for signin/signup, JWT token for Authentication and Authorization of user/admin roles, various exceptions handled, HttpStatus codes in response section of PostMan.        
-**Repository :** **[Blogging Webapp](https://github.com/GirishHaragon/my-portfolio/tree/main/Blogging_App_APIs)**
+**Repository :** **GirishHaragon/my-portfolio/[Blogging Webapp](https://github.com/GirishHaragon/my-portfolio/tree/main/Blogging_App_APIs)**
 
 **Project Name:** **Flight_Reservation_Web_App    &    CheckIn**   
 **Description:** I've performed all sort of things required basically for a flight booking system, like Flights searching, booking a flight, integrating sample payment gateway, generating pdf tickets, generating mail and sending to the respective user, SMS third party API integration from Twilio etc.. #Tools used: SpringToolSuite, JSP, SpringMVC, MySQL workbench 8.0CE..           
-**Repository :**  **GirishHaragon/my-portfolio/Flight_Reservation_app   &   GirishHaragon/my-portfolio/CheckIn**
+**Repository :**  **GirishHaragon/my-portfolio/[Flight Reservation Webapp](https://github.com/GirishHaragon/my-portfolio/tree/main/Flight_Reservation_app)   &   GirishHaragon/my-portfolio/[CheckIn Microservice](https://github.com/GirishHaragon/my-portfolio/tree/main/CheckIn)**
 
 **Project Name:** **Marketing_App**          
 **Description:** Performed a perfect CRUD operation on MySql DB for maintaining Lead details for a marketing company/venture. Performed MVC architecture with JSP+HTML Frontend pages for recording Lead Details, sending greeting for showing interestin the service, email after successful registering.             
-**Repository :** **GirishHaragon/my-portfolio/Marketing_App_Leads_CRUD(APIs)**
+**Repository :** **GirishHaragon/my-portfolio/[Marketing_App_Leads_CRUD(APIs)](https://github.com/GirishHaragon/my-portfolio/tree/main/Marketing_App_Leads_CRUD(APIs))**
 
 **Project Name:** **Cafe Management Systen**          
 **Description:** Performed a perfect CRUD operation on MySql DB for maintaining Food and Beverages ordering and maitaining their availability for the cafe admin/staffs, different roles based usage, Spring security, JWT, Exceptions, RESTful APIs developer using Spring boot application Hibernate framework, Angular is used for frontend to build single page based web application...           
